@@ -28,8 +28,9 @@ header{
 
 .header-contnts a:hover{
     transition: 0.7s;
-    opacity: 50%;
+    color: #0366D6;
 }
+
 
 .main-content1{
     padding: 100px 0 100px 0 ;
@@ -61,6 +62,7 @@ header{
     letter-spacing: 3px;
     padding-bottom: 50px;
     text-align: center;
+    color: black;
 }
 
 .year{
@@ -85,7 +87,7 @@ header{
 }
 
 .img:hover{
-    opacity: 50%;
+    opacity: 40%;
     transition: 0.7s;
 }
 
@@ -101,8 +103,8 @@ header{
 }
 
 .url a:hover{
-    opacity: 50%;
-    transition: 0.7s;
+    transition: 0.5s;
+    opacity: 40%;
 }
 
 .product-url{
@@ -120,6 +122,7 @@ header{
     letter-spacing: 3px;
     padding-bottom: 50px;
     text-align: center;
+    color: black;
 }
 
 .skill-box{
