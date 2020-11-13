@@ -44,10 +44,30 @@
     }
 
     .header-contnts a{
-        padding-left: 15px;
+        margin-left: 15px;
     }
 
     .profile-text{
         font-size: 15px;
+    }
+}
+
+@media (max-width:500px){
+    .profile-title{
+        font-size: 30px;
+    }
+
+    .profile-text{
+        font-size: 13px;
+    }
+    .skill-title{
+        font-size: 30px;
+    }
+    .works-title{
+        font-size: 30px;
+    }
+
+    .contact-title{
+        font-size: 30px;
     }
 }
