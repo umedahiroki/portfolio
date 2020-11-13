@@ -22,8 +22,13 @@ header{
 }
 
 .header-contnts a{
-    padding-left: 20px;
+    margin-left: 20px;
     color: black;
+}
+
+.header-contnts a:hover{
+    transition: 0.7s;
+    opacity: 50%;
 }
 
 .main-content1{
