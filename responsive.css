@@ -1,0 +1,53 @@
+@media (max-width:970px){
+    .header-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 50px 0;
+    }
+}
+
+@media (max-width:730px){
+    .year{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .img-box{
+        height: 600px;
+    }
+
+    .year{
+        padding-bottom: 0;
+    }
+
+    .main-content2{
+        padding: 100px 0 0 0;
+    }
+
+}
+
+@media (max-width:670px){
+    .header-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 20px 0;
+    }
+
+    .headee-title{
+        font-size: 35px;
+    }
+
+    .header-contnts{
+        font-size: 16px;
+    }
+
+    .header-contnts a{
+        padding-left: 15px;
+    }
+
+    .profile-text{
+        font-size: 15px;
+    }
+}
