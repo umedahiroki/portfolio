@@ -1,5 +1,4 @@
 header{
-    background-color: #F7F9FC;
 }
 
 .header-box{
@@ -34,8 +33,8 @@ header{
 
 .main-content1{
     padding: 100px 0 100px 0 ;
-    text-align: center;
     color: black;
+    background-color: #F7F9FC;
 }
 
 .profile-title{
@@ -43,17 +42,52 @@ header{
     font-weight: bold;
     letter-spacing: 3px;
     padding-bottom: 50px;
+    text-align: center;
+}
+
+.profile-name{
+    display: flex;
+    align-items: center;
+}
+
+.name-top{
+    font-size: 32px;
+    margin-right: 10px;
 }
 
 .profile-text{
     color: black;
     line-height: 1.8;
     letter-spacing: 0.8px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    background-color: #ffffff;
 }
 
+.profile-content{
+    margin-top: 15px;
+}
+
+.hubit{
+    margin-top: 25px;
+}
+
+.blog-link{
+    color: #2b546a;
+}
+
+.stance-message{
+    font-size: 26px;
+}
+
+.last-message{
+    margin-top: 25px;
+}
 
 .main-content2{
     padding: 100px 0 100px 0;
+    background-color: #F7F9FC;
 }
 
 .works-title{
